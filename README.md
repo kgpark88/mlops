@@ -15,4 +15,4 @@ cd mlflow
 pipenv --python 3.11  
    
 pipenv shell   
-pipenv install mlflow awscli boto3 setuptools   
+pipenv install mlflow

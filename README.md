@@ -6,7 +6,7 @@ sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt install python3.11 -y 
 python3.11 --version 
 
-# sudo apt install python3-pip 
+sudo apt install python3-pip 
 sudo pip3 install pipenv virtualenv
 
 mkdir mlflow

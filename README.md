@@ -9,6 +9,7 @@ python3.11 --version
 sudo apt install python3-pip   
 sudo pip3 install pipenv virtualenv  
 
+cd
 mkdir mlflow  
 cd mlflow  
 pipenv --python 3.11  

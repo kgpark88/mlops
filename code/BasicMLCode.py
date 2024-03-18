@@ -46,14 +46,22 @@ if __name__ == "__main__":
     print("args", args)
     print(alpha, l1_ratio)
 
-    lr = ElasticNet(alpha=alpha, l1_ratio=l1_ratio, random_state=42)
+    lr = ElasticNet(
+        alpha=alpha, 
+        l1_ratio=l1_ratio, 
+        random_state=42
+        )
     lr.fit(train_x, train_y)
-
     predicted_qualities = lr.predict(test_x)
 
-    (rmse, mae, r2) = eval_metrics(test_y, predicted_qualities)
+    (rmse, mae, r2) = eval_metrics(
+        test_y, p
+        redicted_qualities
+        )
 
-    print("Elasticnet model (alpha={:f}, l1_ratio={:f}):".format(alpha, l1_ratio))
-    print("  RMSE: %s" % rmse)
-    print("  MAE: %s" % mae)
-    print("  R2: %s" % r2)
+    print(f"Elasticnet model (alpha={alpha:f}, l1_ratio={l1_ratio:f})")
+    print(f"RMSE : {rmse}")
+    print(f"MAE : {mae}")
+    print(f"R2 : {r2}")
+
+

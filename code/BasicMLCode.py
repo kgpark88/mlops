@@ -55,8 +55,7 @@ if __name__ == "__main__":
     predicted_qualities = lr.predict(test_x)
 
     (rmse, mae, r2) = eval_metrics(
-        test_y, p
-        redicted_qualities
+        test_y, predicted_qualities
         )
 
     print(f"Elasticnet model (alpha={alpha:f}, l1_ratio={l1_ratio:f})")

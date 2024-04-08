@@ -1,8 +1,7 @@
 import mlflow
 
-experiment_name = "Ridge
-"
-entry_point = "train2.py"
+experiment_name = "Ridge"
+entry_point = "Training2"
 
 mlflow.set_tracking_uri("http://127.0.0.1:5000")
 

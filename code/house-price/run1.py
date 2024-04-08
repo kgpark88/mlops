@@ -1,7 +1,7 @@
 import mlflow
 
 experiment_name = "ElasticNet"
-entry_point = "train1.py"
+entry_point = "Training1"
 
 mlflow.set_tracking_uri("http://127.0.0.1:5000")
 
@@ -11,5 +11,3 @@ mlflow.projects.run(
     experiment_name=experiment_name,
     env_manager="conda"
 )
-
-

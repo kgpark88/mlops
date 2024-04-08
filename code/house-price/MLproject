@@ -1,5 +1,9 @@
 name: "Hosuing price prediction"
 conda_env: conda.yaml
 entry_points:
-    Training:
-        command: "python train.py"
+    Training1:
+        command: "python train1.py"
+    Training2:
+        command: "python train2.py"
+    Training3:
+        command: "python train3.py"

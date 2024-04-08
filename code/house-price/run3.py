@@ -1,7 +1,7 @@
 import mlflow
 
 experiment_name = "XGB"
-entry_point = "train3.py"
+entry_point = "Training3"
 
 mlflow.set_tracking_uri("http://127.0.0.1:5000")
 

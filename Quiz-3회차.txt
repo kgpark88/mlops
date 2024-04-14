@@ -1,23 +1,27 @@
-문제 1. MLflow 모델 서빙에서 사용되는 주요 컴포넌트는 무엇인가?
+문제 1. MLflow의 주요 구성 요소는 무엇인가?
 
-가. MLflow Tracking Server 
+가. Tracking, Projects, Models
 
-나. MLflow Projects 
+나. Data, Training, Deployment
 
-다. MLflow Models
+다. Preprocessing, Modeling, Evaluation
 
-라. MLflow Model Registry
+라. Experiment, Hyperparameters, Visualization
+
+답 : 가
 
 
-문제 2. MLflow 모델 서버는 어떤 종류의 모델을 지원하는가? 
+문제 2. MLflow Projects는 무엇을 위한 기능인가? 
 
-가. scikit-learn 모델 
+가. 데이터 버전 관리
 
-나. XGBoost 모델 
+나. 재현 가능한 실행 환경 제공
 
-다. TensorFlow 모델 
+다. 모델 서빙을 위한 API 생성
 
-라. 모두 지원한다.
+라. 모델 평가 자동화.
+
+답 : 나
 
 
 문제 3. MLflow 모델 서버에서 모델을 배포할 때 어떤 방식을 사용할 수 있는가? 
@@ -29,3 +33,5 @@
 다. AWS SageMaker에 배포 
 
 라. 모두 가능하다. 
+
+답 : 라
